@@ -1,0 +1,13 @@
+{
+  "CompilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "outdir": "dist",
+    "rootdir": "src",
+    "strict": true,
+    "esModuleInterdrop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

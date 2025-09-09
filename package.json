@@ -1,0 +1,20 @@
+{
+  "name": "@lounchmade/my-first-packege",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "semantic-release": "^24.2.7",
+    "typescript": "^5.9.2",
+  },
+  "files": ["dist", "README.md"],
+  "publishConfig": {
+    "access": "public"
+  }
+}
