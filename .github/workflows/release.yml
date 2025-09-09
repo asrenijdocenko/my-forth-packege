@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
-      - run: nppm ci
+      - run: npm ci
       - run: npm run build
       - run: npm audit signatures
       - name: Release
