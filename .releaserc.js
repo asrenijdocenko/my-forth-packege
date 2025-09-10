@@ -1,3 +1,6 @@
 module.exports = {
-    branches: ["main", {name: "next", prerelease: true}]
+    branches: [
+        "main",
+        { name: "next", prerelease: true }
+    ]
 };
